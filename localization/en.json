@@ -1,2 +1,16 @@
 {
+    "language_name": "English",
+
+    "registration_slider": {
+        "create_button": "Create account",
+
+        "n1_title": "Meet your DinoGochi",
+        "n1_text": "Start a tiny journey — hatch, raise and explore together.",
+
+        "n2_title": "Collect & Battle",
+        "n2_text": "Find allies, fight dungeons and grow stronger.",
+
+        "n3_title": "Join the community",
+        "n3_text": "Play together and share your adventures."
+    }
 }
