@@ -68,6 +68,7 @@
         "rank": "ранг",
         "name": "название",
         "description": "описание",
+        "count": "количество",
 
         "egg": {
             "incubation_time": "время инкубации",
