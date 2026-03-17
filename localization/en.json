@@ -35,6 +35,10 @@
         "legendary": {
             "name": "legendary",
             "emoji": "💛"
+        },
+        "random": {
+            "name": "random",
+            "emoji": "🖤"
         }
     },
 
@@ -43,7 +47,8 @@
         "unusual_egg": "unusual egg",
         "rare_egg": "rare egg",
         "epic_egg": "epic egg",
-        "legendary_egg": "legendary egg"
+        "legendary_egg": "legendary egg",
+        "random_egg": "random egg"
     },
 
     "registration_slider": {
