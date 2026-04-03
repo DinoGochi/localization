@@ -1,6 +1,5 @@
 {
     "language_name": "English",
-
     "time_units": {
         "year": "year | years",
         "month": "month | months",
@@ -10,11 +9,97 @@
         "minute": "minute | minutes",
         "second": "second | seconds"
     },
-
+    "common": {
+        "loading": "Loading...",
+        "filter": "Filter",
+        "nothing_found": "Nothing found",
+        "selected": "Selected",
+        "player": "Player",
+        "unknown": "Unknown",
+        "unnamed": "Unnamed",
+        "no_image": "No image",
+        "view": "View",
+        "back": "Back",
+        "close": "Close",
+        "next": "Next",
+        "done": "Done",
+        "ready": "Ready",
+        "clear": "Clear",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "finish": "Finish",
+        "send": "Send",
+        "select": "Select",
+        "no_data": "No data",
+        "dash": "-",
+        "no_entities": "No entities"
+    },
+    "down_menu": {
+        "aria_label": "Bottom navigation menu",
+        "items": {
+            "dino": "Dinosaurs",
+            "map": "Map",
+            "inventory": "Inventory",
+            "account": "Account"
+        }
+    },
+    "errors": {
+        "user_load": "Failed to load user"
+    },
     "item_types": {
         "egg": "dinosaur egg"
     },
-
+    "inventory": {
+        "types": {
+            "egg": "Egg",
+            "eat": "Food"
+        },
+        "search_placeholder": "Search...",
+        "sort": "Sort",
+        "location": "Location",
+        "no_items": "No items found",
+        "no_actions": "No available actions",
+        "item_details": "Item details",
+        "action": "Action",
+        "action_titles": {
+            "feeding": "Feeding"
+        },
+        "sort_options": {
+            "default": "Default",
+            "name_asc": "Name A -> Z",
+            "name_desc": "Name Z -> A"
+        },
+        "actions": {
+            "actions_names": {
+                "use": {
+                    "button": "Use",
+                    "title": "Item usage"
+                }
+            },
+            "unavailable": {
+                "no_target": "No dinosaur selected",
+                "dino_not_found": "Dinosaur not found",
+                "dino_not_available": "Dinosaur is unavailable now",
+                "item_empty": "Item is empty",
+                "dino_max_limit": "Maximum dinosaur count exceeded",
+                "default": "Action is unavailable now"
+            }
+        },
+        "errors": {
+            "action_failed": "Action execution failed"
+        },
+        "egg_end": {
+            "title": "Egg selected!",
+            "text": "The egg has started incubation. Press the button below to view details."
+        },
+        "eat_end": {
+            "title": "Feeding completed",
+            "description": "Item used.",
+            "description_with_dino": "Item used. Dinosaur {dino} has been fed.",
+            "dino": "Dinosaur",
+            "open_dino": "Open dinosaur"
+        }
+    },
     "ranks": {
         "common": {
             "name": "common",
@@ -41,7 +126,6 @@
             "emoji": "🖤"
         }
     },
-
     "item_names": {
         "regular_egg": "regular egg",
         "unusual_egg": "unusual egg",
@@ -50,33 +134,326 @@
         "legendary_egg": "legendary egg",
         "random_egg": "random egg"
     },
-
-    "registration_slider": {
-        "create_button": "Create account",
-
-        "n1_title": "Meet your DinoGochi",
-        "n1_text": "Start a tiny journey — hatch, raise and explore together.",
-
-        "n2_title": "Collect & Battle",
-        "n2_text": "Find allies, fight dungeons and grow stronger.",
-
-        "n3_title": "Join the community",
-        "n3_text": "Play together and share your adventures."
-    },
-
-    "inventory": {
-
-    },
-
     "inventory_item": {
         "type": "type",
         "rank": "rank",
         "name": "name",
         "description": "description",
-
+        "count": "count",
         "egg": {
             "incubation_time": "incubation time",
             "egg_rarity": "egg rarity"
+        },
+        "eat": {
+            "effect": "effect",
+            "target": "target"
+        }
+    },
+    "onboarding": {
+        "buttons": {
+            "hide": "Hide",
+            "next": "Next",
+            "back": "Back"
+        }
+    },
+    "tutorial": {
+        "home": {
+            "inventory": {
+                "title": "Inventory",
+                "description": "Open inventory to start!"
+            }
+        },
+        "form": {
+            "choice": {
+                "title": "Choice",
+                "description": "First, choose an egg in this block"
+            },
+            "done": {
+                "title": "Done",
+                "description": "Now press Done to continue!"
+            }
+        },
+        "inventory": {
+            "use": {
+                "title": "Use",
+                "description": "Press to use the item"
+            },
+            "result": {
+                "title": "Done!",
+                "description": "You successfully used the item. Have fun!"
+            },
+            "first_item": {
+                "title": "Your item",
+                "description": "Tap an item to inspect it"
+            }
+        }
+    },
+    "form": {
+        "step_aria": "Step {step}",
+        "min": "min",
+        "max": "max",
+        "egg_choice": {
+            "no_eggs": "No eggs available",
+            "dino_alt": "Dinosaur {index}",
+            "egg_alt": "Egg {id}",
+            "info_text": "Each egg shows which dinosaur will hatch from it after incubation."
+        },
+        "count": {
+            "label": "Count"
+        }
+    },
+    "home": {
+        "title": "Dinosaurs",
+        "entity_type": "Entity type",
+        "filters": {
+            "all": "All",
+            "dinosaurs": "Dinosaurs",
+            "eggs": "Eggs"
+        },
+        "ownership": {
+            "own": "Your dinosaur",
+            "shared": "Shared dinosaur",
+            "foreign": "Other player's dinosaur"
+        },
+        "default_dino_name": "Dinosaur #{index}",
+        "default_egg_name": "Egg #{index}",
+        "egg_subtitle": "Incubating egg",
+        "errors": {
+            "no_entities": "You do not have dinosaurs or eggs yet",
+            "load_failed": "Failed to load data"
+        }
+    },
+    "account": {
+        "tiles_title": "Useful tiles",
+        "tiles": {
+            "battlepass": "Battlepass",
+            "settings": "Settings",
+            "level_reward": "Level reward",
+            "donate_shop": "Donation shop",
+            "about_project": "About project",
+            "forum_knowledge": "Forum & knowledge base",
+            "collections": "Collections",
+            "rating": "Rating",
+            "friends": "Friends",
+            "global_search": "Global search",
+            "admin_panel": "Admin panel",
+            "map_generator": "Map generator"
+        }
+    },
+    "auth": {
+        "not_miniapp": {
+            "title": "Telegram login",
+            "subtitle": "You opened the game in a browser. To confirm account access, open the bot for authorization.",
+            "loading_request": "Preparing confirmation request...",
+            "open_bot": "Open bot for confirmation",
+            "refresh_request": "Refresh confirmation request"
+        },
+        "status": {
+            "pending": "waiting for confirmation in Telegram",
+            "confirmed": "confirmed, finishing login",
+            "expired": "session expired, create a new one",
+            "used": "login already completed"
+        },
+        "errors": {
+            "confirmed_but_inactive": "Confirmation completed but session is not active. Check CORS/domain and browser cookie blocking.",
+            "complete_failed": "Failed to complete login. Refresh request and try again.",
+            "create_failed": "Failed to create confirmation request. Try again."
+        },
+        "success": {
+            "command_copied": "Command copied to clipboard. Paste it in Telegram.",
+            "command_copied_fallback": "Command copied to clipboard (fallback method)."
+        }
+    },
+    "connecting": {
+        "steps": {
+            "checking_server": "Checking server...",
+            "checking_cdn": "Checking CDN...",
+            "authorizing": "Authorizing...",
+            "loading_localization": "Loading localization...",
+            "preloading_pages": "Preparing interface...",
+            "connecting_ws": "Connecting to server...",
+            "ready": "Done! Loading...",
+            "default": "Connecting..."
+        },
+        "descriptions": {
+            "checking_server": "Checking game server availability...",
+            "checking_cdn": "Checking content server availability...",
+            "authorizing": "Validating credentials and authorizing...",
+            "loading_localization": "Loading application localization...",
+            "preloading_pages": "Preloading interface pages for faster performance...",
+            "connecting_ws": "Establishing server connection...",
+            "ready": "All set! Teleporting you to the game world..."
+        }
+    },
+    "reconnect": {
+        "title": "Reconnect",
+        "connection_lost": "Connection to server lost",
+        "continue_here": "Continue here",
+        "active_connections": "Active connections",
+        "connected_at": "connected"
+    },
+    "error_page": {
+        "title": "Error page",
+        "code": "Error code",
+        "message": "Message",
+        "from": "From"
+    },
+    "map": {
+        "hex_info_title": "Cell info",
+        "search": {
+            "placeholder": "Search dinosaur, marker or cell by ID (e.g. N3)...",
+            "groups": {
+                "markers": "Markers",
+                "dinos": "Dinosaurs",
+                "cells": "Cells",
+                "objects": "Objects"
+            }
+        },
+        "dino_picker": {
+            "title": "Dinosaur selection",
+            "default_name": "Dino {id}"
+        },
+        "controls": {
+            "lock_rotation_tooltip": "Lock horizontal rotation",
+            "lock_rotation_aria": "Rotation lock",
+            "mode_normal": "Standard",
+            "mode_safe": "Safe zones",
+            "mode_biome": "Biomes",
+            "search_mode": "Search mode",
+            "dino_mode": "Dinosaur mode",
+            "points_count": "Points",
+            "build_route_mode": "Route build mode",
+            "route_info": "Route info",
+            "clear_waypoints": "Clear points",
+            "remove_last_waypoint": "Remove last point",
+            "remove_last": "Remove last",
+            "dino_not_selected": "Dinosaur is not selected",
+            "search_on_map": "Search on map"
+        },
+        "hex_menu": {
+            "select_hex": "Select a cell on the map",
+            "no_biome_image": "Biome image is unavailable",
+            "cell_id": "Cell ID",
+            "passability": "Passability",
+            "safe_zone": "Safe zone",
+            "danger_zone": "Danger zone",
+            "no_dinos": "No dinosaurs on this cell",
+            "position": "position",
+            "no_structures": "No structures on this cell",
+            "structure": "Structure",
+            "type": "type",
+            "filters": {
+                "biome": "Biome",
+                "dinos": "Dinosaurs",
+                "structures": "Structures"
+            }
+        },
+        "biome": {
+            "unknown": "Unknown biome",
+            "description_default": "Biome description is not provided yet"
+        },
+        "route": {
+            "info_title": "Route info",
+            "confirm_title": "Route confirmation",
+            "start": "Start",
+            "finish": "Finish",
+            "cells_count": "Cells in route",
+            "travel_time": "Travel time",
+            "time_left": "Time left",
+            "force_ending": "Dinosaur is finishing movement",
+            "finishing": "This movement is finishing",
+            "time_hours_short": "h",
+            "time_minutes_short": "m",
+            "time_seconds_short": "s",
+            "errors": {
+                "waiting_ws_update": "Waiting for activity update from WebSocket...",
+                "empty": "Route is empty. Add at least one cell.",
+                "calculate_failed": "Failed to calculate route time.",
+                "calculate_error": "Route calculation error.",
+                "start_event_missing": "Command sent, but start event was not received.",
+                "start_failed": "Failed to start movement.",
+                "force_end_failed": "Failed to finish route."
+            }
+        }
+    },
+    "dino": {
+        "default_name": "Dinosaur",
+        "sections": {
+            "state": "State",
+            "skills": "Skills"
+        },
+        "badges": {
+            "state": "State",
+            "rarity": "Rarity",
+            "age": "Age",
+            "uniqueness": "Uniqueness",
+            "speed": "Speed",
+            "armor": "Armor"
+        },
+        "speed_per_cell": "{value} min / 1 cell",
+        "skills": {
+            "power": "power",
+            "dexterity": "dexterity",
+            "intelligence": "intelligence",
+            "charisma": "charisma"
+        },
+        "needs": {
+            "heal": "Health",
+            "game": "Play",
+            "eat": "Satiety",
+            "mood": "Mood",
+            "energy": "Energy"
+        },
+        "need_modal": {
+            "title": "Need information"
+        },
+        "need_descriptions": {
+            "heal": {
+                "0": "I feel very bad!",
+                "25": "I don't feel good...",
+                "50": "I feel okay",
+                "75": "I feel great!"
+            },
+            "eat": {
+                "0": "I'm starving!",
+                "25": "I want to eat...",
+                "50": "A little hungry",
+                "75": "I'm full!"
+            },
+            "game": {
+                "0": "Bored, I want to play!",
+                "25": "I would like to play...",
+                "50": "Played a little",
+                "75": "Played enough, happy!"
+            },
+            "mood": {
+                "0": "I'm sad...",
+                "25": "I'm a bit sad",
+                "50": "Mood is normal",
+                "75": "I'm in a great mood!"
+            },
+            "energy": {
+                "0": "No energy left...",
+                "25": "I should recharge...",
+                "50": "I feel tired",
+                "75": "Full of energy!"
+            }
+        }
+    },
+    "egg": {
+        "info_title": "Egg information",
+        "hatch_button": "Hatch",
+        "labels": {
+            "rarity": "Rarity",
+            "incubation": "Incubation"
+        }
+    },
+    "world": {
+        "biomes": {
+            "plains": {
+                "name": "Plains",
+                "description": "Wide open areas with a mild climate."
+            }
         }
     }
 }
