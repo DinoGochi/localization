@@ -33,7 +33,8 @@
         "no_data": "No data",
         "dash": "-",
         "no_entities": "No entities",
-        "unit": "{value} units"
+        "unit": "{value} units",
+        "kilogram": "{value} kg"
     },
     "down_menu": {
         "aria_label": "Bottom navigation menu",
@@ -65,10 +66,21 @@
         "action_titles": {
             "feeding": "Feeding"
         },
+        "filters": {
+            "rarity": "Rarity",
+            "location": "Location",
+            "rank": "Rank"
+        },
         "sort_options": {
             "default": "Default",
             "name_asc": "Name A -> Z",
-            "name_desc": "Name Z -> A"
+            "name_desc": "Name Z -> A",
+            "rarity_asc": "Rarity ↑",
+            "rarity_desc": "Rarity ↓",
+            "location_asc": "Location A -> Z",
+            "location_desc": "Location Z -> A",
+            "rank_asc": "Rank ↑",
+            "rank_desc": "Rank ↓"
         },
         "actions": {
             "actions_names": {
@@ -148,7 +160,8 @@
         "eat": {
             "effect": "effect",
             "target": "target"
-        }
+        },
+        "target": "Select a dinosaur"
     },
     "onboarding": {
         "buttons": {

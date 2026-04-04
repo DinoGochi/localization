@@ -35,7 +35,20 @@
         "dash": "-",
         "no_entities": "Нет сущностей",
         "unit": "{value} ед.",
-        "kilogram": "{value} кг"
+        "kilogram": "{value} кг."
+    },
+    "item_types": {
+        "egg": "Яйцо динозавра",
+        "eat": "Еда"
+    },
+    "item_names": {
+        "regular_egg": "обычное яйцо",
+        "unusual_egg": "необычное яйцо",
+        "rare_egg": "редкое яйцо",
+        "epic_egg": "эпическое яйцо",
+        "legendary_egg": "легендарное яйцо",
+        "random_egg": "случайное яйцо",
+        "jar_honey": "банка меда"
     },
     "down_menu": {
         "aria_label": "Нижнее меню навигации",
@@ -49,14 +62,7 @@
     "errors": {
         "user_load": "Ошибка загрузки пользователя"
     },
-    "item_types": {
-        "egg": "яйцо динозавра"
-    },
     "inventory": {
-        "types": {
-            "egg": "Яйцо",
-            "eat": "Еда"
-        },
         "search_placeholder": "Поиск...",
         "sort": "Сортировка",
         "location": "Локация",
@@ -67,10 +73,21 @@
         "action_titles": {
             "feeding": "Кормление"
         },
+        "filters": {
+            "rarity": "Редкость",
+            "location": "Локация",
+            "rank": "Ранг"
+        },
         "sort_options": {
             "default": "По умолчанию",
             "name_asc": "Имя A -> Я",
-            "name_desc": "Имя Я -> A"
+            "name_desc": "Имя Я -> A",
+            "rarity_asc": "Редкость ↑",
+            "rarity_desc": "Редкость ↓",
+            "location_asc": "Локация A -> Я",
+            "location_desc": "Локация Я -> A",
+            "rank_asc": "Ранг ↑",
+            "rank_desc": "Ранг ↓"
         },
         "actions": {
             "actions_names":{
@@ -128,14 +145,6 @@
             "name": "Случайное | Случайная | Случайные | Случайный",
             "emoji": "🖤"
         }
-    },
-    "item_names": {
-        "regular_egg": "обычное яйцо",
-        "unusual_egg": "необычное яйцо",
-        "rare_egg": "редкое яйцо",
-        "epic_egg": "эпическое яйцо",
-        "legendary_egg": "легендарное яйцо",
-        "random_egg": "случайное яйцо"
     },
     "inventory_item": {
         "type": "тип",
@@ -203,7 +212,8 @@
         },
         "count": {
             "label": "Количество"
-        }
+        },
+        "target": "Выберите динозавра"
     },
     "home": {
         "title": "Динозавры",
