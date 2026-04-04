@@ -429,6 +429,15 @@
         "need_modal": {
             "title": "Информация о потребности"
         },
+        "settings": {
+            "title": "Настройки динозавра",
+            "current_name": "Текущее имя",
+            "rename_action": "Переименовать динозавра",
+            "rename_title": "Смена имени",
+            "rename_placeholder": "Введите новое имя",
+            "rename_success": "Имя успешно изменено",
+            "rename_failed": "Не удалось сменить имя динозавра"
+        },
         "need_descriptions": {
             "heal": {
                 "0": "Мне очень плохо!",

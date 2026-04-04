@@ -430,6 +430,15 @@
         "need_modal": {
             "title": "Need information"
         },
+        "settings": {
+            "title": "Dinosaur settings",
+            "current_name": "Current name",
+            "rename_action": "Rename dinosaur",
+            "rename_title": "Rename dinosaur",
+            "rename_placeholder": "Enter new name",
+            "rename_success": "Name changed successfully",
+            "rename_failed": "Failed to rename dinosaur"
+        },
         "need_descriptions": {
             "heal": {
                 "0": "I feel very bad!",
