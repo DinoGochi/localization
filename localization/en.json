@@ -32,7 +32,8 @@
         "select": "Select",
         "no_data": "No data",
         "dash": "-",
-        "no_entities": "No entities"
+        "no_entities": "No entities",
+        "unit": "{value} units"
     },
     "down_menu": {
         "aria_label": "Bottom navigation menu",
@@ -391,11 +392,13 @@
         },
         "badges": {
             "state": "State",
+            "location": "Location",
             "rarity": "Rarity",
             "age": "Age",
             "uniqueness": "Uniqueness",
             "speed": "Speed",
-            "armor": "Armor"
+            "armor": "Armor",
+            "payload": "Payload"
         },
         "speed_per_cell": "{value} min / 1 cell",
         "skills": {

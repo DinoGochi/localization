@@ -33,7 +33,9 @@
         "select": "Выбрать",
         "no_data": "Нет данных",
         "dash": "-",
-        "no_entities": "Нет сущностей"
+        "no_entities": "Нет сущностей",
+        "unit": "{value} ед.",
+        "kilogram": "{value} кг"
     },
     "down_menu": {
         "aria_label": "Нижнее меню навигации",
@@ -392,11 +394,13 @@
         },
         "badges": {
             "state": "Состояние",
+            "location": "Локация",
             "rarity": "Редкость",
             "age": "Возраст",
             "uniqueness": "Уникальность",
             "speed": "Скорость",
-            "armor": "Защита"
+            "armor": "Защита",
+            "payload": "Грузоподъемность"
         },
         "speed_per_cell": "{value} мин. / 1 клетка",
         "skills": {
