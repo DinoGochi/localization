@@ -267,7 +267,6 @@
     "connecting": {
         "steps": {
             "checking_server": "Checking server...",
-            "checking_cdn": "Checking CDN...",
             "authorizing": "Authorizing...",
             "loading_localization": "Loading localization...",
             "preloading_pages": "Preparing interface...",
@@ -277,12 +276,20 @@
         },
         "descriptions": {
             "checking_server": "Checking game server availability...",
-            "checking_cdn": "Checking content server availability...",
             "authorizing": "Validating credentials and authorizing...",
             "loading_localization": "Loading application localization...",
             "preloading_pages": "Preloading interface pages for faster performance...",
             "connecting_ws": "Establishing server connection...",
             "ready": "All set! Teleporting you to the game world..."
+        }
+    },
+    "service": {
+        "server_not_available": {
+            "main_title": "Server unavailable",
+            "service_status": "Service status",
+            "main_description": "Main game server is not responding right now. Please try reconnecting in a moment.",
+            "reconnect_button": "Try reconnecting",
+            "news": "Check news"
         }
     },
     "reconnect": {
