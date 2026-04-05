@@ -292,7 +292,7 @@
             "checking_server": "Checking game server availability...",
             "authorizing": "Validating credentials and authorizing...",
             "loading_localization": "Loading application localization...",
-            "preloading_pages": "Preloading interface pages for faster performance...",
+            "preloading_pages": "Preloading interface pages for faster performance. This may take a moment...",
             "connecting_ws": "Establishing server connection...",
             "ready": "All set! Teleporting you to the game world..."
         }
