@@ -470,6 +470,31 @@
                 "50": "I feel tired",
                 "75": "Full of energy!"
             }
+        },
+        "energy_page": {
+            "title": "Dinosaur sleep",
+            "send_to_sleep": "Send to sleep",
+            "sleep_state": "Sleep state",
+            "sleep_progress": "Sleep progress",
+            "sleep_remaining": "Remaining",
+            "energy_at_end": "Energy at end",
+            "fast_sleep": "Fast sleep",
+            "fast_sleep_info": {
+                "title": "About fast sleep",
+                "description": "Accelerated sleep for urgent energy recovery. Energy restores 2x faster."
+            },
+            "min_duration": "min: {value}",
+            "max_duration": "max: {value}",
+            "sleep_duration": "Sleep duration: {value}",
+            "sleep_end": {
+                "title": "The dinosaur woke up!",
+                "description": "The dinosaur has rested and is full of energy!"
+            },
+            "sleep_unavailable": "Cannot start sleep, the dinosaur still has too much energy",
+            "start_sleep": "Put to sleep",
+            "stop_sleep": "Stop sleep",
+            "stop_sleep_hint": "This may harm the dinosaur",
+            "to_sleep_page": "About sleep"
         }
     },
     "egg": {

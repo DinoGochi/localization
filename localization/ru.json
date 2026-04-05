@@ -469,6 +469,34 @@
                 "50": "Чувствую усталость",
                 "75": "Полон сил!"
             }
+        },
+        "energy_page": {
+            "title": "Сон динозавра",
+            "send_to_sleep": "Отправить спать",
+            "sleep_state": "Состояние сна",
+            "sleep_progress": "Прогресс сна",
+            "sleep_remaining": "Осталось",
+            "energy_at_end": "Энергии в конце",
+            "fast_sleep": "Быстрый сон",
+            "fast_sleep_info": {
+                "title": "О быстром сне",
+                "description": "Ускоренный сон для срочного восстановления сил. Энергия восстанавливается в 2 раза быстрее."
+            },
+            "min_duration": "мин: {value}",
+            "max_duration": "макс: {value}",
+            "sleep_duration": "Время сна: {value}",
+            "sleep_end": {
+                "title": "Динозавр проснулся!",
+                "description": "Динозавр отдохнул и полон сил!"
+            },
+            "sleep_progress": "Прогресс сна",
+            "sleep_remaining": "Осталось",
+            "sleep_state": "Состояние сна",
+            "sleep_unavailable": "Начать сон нельзя, у динозавра всё ещё много сил",
+            "start_sleep": "Отправить спать",
+            "stop_sleep": "Прервать сон",
+            "stop_sleep_hint": "Это может навредить динозавру",
+            "to_sleep_page": "О сне"
         }
     },
     "egg": {
