@@ -485,6 +485,18 @@
             "plains": {
                 "name": "Plains",
                 "description": "Wide open areas with a mild climate."
+            },
+            "forest": {
+                "name": "Forest",
+                "description": "Dense trees and green fields."
+            },
+            "sand": {
+                "name": "Desert",
+                "description": "Hot and dry landscape."
+            },
+            "mountain": {
+                "name": "Mountain",
+                "description": "High peaks and cold climate."
             }
         }
     }
