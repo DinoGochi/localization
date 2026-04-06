@@ -231,6 +231,11 @@
         "default_dino_name": "Динозавр #{index}",
         "default_egg_name": "Яйцо #{index}",
         "egg_subtitle": "Инкубируемое яйцо",
+        "entity_type_titles": {
+            "all": "Динозавры и Яйца",
+            "dinosaurs": "Динозавры",
+            "eggs": "Яйца"
+        },
         "errors": {
             "no_entities": "У вас пока нет динозавров или яиц",
             "load_failed": "Ошибка загрузки данных"
@@ -251,6 +256,23 @@
             "global_search": "Глобальный поиск",
             "admin_panel": "Админ панель",
             "map_generator": "Генератор карт"
+        },
+        "settings": {
+            "title": "Настройки",
+            "current_name": "Текущее имя",
+            "rename_action": "Сменить имя",
+            "language": "Язык",
+            "rename_title": "Смена имени",
+            "rename_placeholder": "Введите новое имя",
+            "name_required": "Имя не может быть пустым",
+            "name_invalid": "Используйте только строчные буквы, цифры и нижние подчёркивания",
+            "rename_success": "Имя успешно изменено",
+            "rename_success_unique": "Имя занято. Установлено: {name}",
+            "name_taken": "Это имя уже занято",
+            "rename_failed": "Не удалось изменить имя",
+            "allowed_chars_hint": "Разрешенные символы: a-z, 0-9 и _",
+            "language_success": "Язык успешно изменен",
+            "language_failed": "Не удалось изменить язык"
         }
     },
     "auth": {

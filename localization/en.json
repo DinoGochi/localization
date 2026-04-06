@@ -232,6 +232,11 @@
         "default_dino_name": "Dinosaur #{index}",
         "default_egg_name": "Egg #{index}",
         "egg_subtitle": "Incubating egg",
+        "entity_type_titles": {
+            "all": "Dinosaurs and Eggs",
+            "dinosaurs": "Dinosaurs",
+            "eggs": "Eggs"
+        },
         "errors": {
             "no_entities": "You do not have dinosaurs or eggs yet",
             "load_failed": "Failed to load data"
@@ -252,6 +257,23 @@
             "global_search": "Global search",
             "admin_panel": "Admin panel",
             "map_generator": "Map generator"
+        },
+        "settings": {
+            "title": "Settings",
+            "current_name": "Current name",
+            "rename_action": "Change name",
+            "language": "Language",
+            "rename_title": "Change name",
+            "rename_placeholder": "Enter new name",
+            "name_required": "Name cannot be empty",
+            "name_invalid": "Use only lowercase letters, numbers, and underscores",
+            "rename_success": "Name changed successfully",
+            "rename_success_unique": "Name was taken. Changed to {name}",
+            "name_taken": "This name is already taken",
+            "rename_failed": "Failed to change name",
+            "allowed_chars_hint": "Allowed characters: a-z, 0-9 and _",
+            "language_success": "Language changed",
+            "language_failed": "Failed to change language"
         }
     },
     "auth": {
