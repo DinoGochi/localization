@@ -31,7 +31,7 @@
         "send": "Send",
         "select": "Select",
         "no_data": "No data",
-        "dash": "-",
+        "dash": "—",
         "no_entities": "No entities",
         "unit": "{value} units",
         "kilogram": "{value} kg"
