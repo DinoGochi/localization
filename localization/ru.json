@@ -475,7 +475,7 @@
             "send_to_sleep": "Отправить спать",
             "sleep_state": "Состояние сна",
             "sleep_progress": "Прогресс сна",
-            "sleep_remaining": "Осталось",
+            "sleep_remaining": "Осталось {value}",
             "energy_at_end": "Энергии в конце",
             "fast_sleep": "Быстрый сон",
             "fast_sleep_info": {
@@ -489,9 +489,6 @@
                 "title": "Динозавр проснулся!",
                 "description": "Динозавр отдохнул и полон сил!"
             },
-            "sleep_progress": "Прогресс сна",
-            "sleep_remaining": "Осталось",
-            "sleep_state": "Состояние сна",
             "sleep_unavailable": "Начать сон нельзя, у динозавра всё ещё много сил",
             "start_sleep": "Отправить спать",
             "stop_sleep": "Прервать сон",

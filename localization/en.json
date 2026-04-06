@@ -476,7 +476,7 @@
             "send_to_sleep": "Send to sleep",
             "sleep_state": "Sleep state",
             "sleep_progress": "Sleep progress",
-            "sleep_remaining": "Remaining",
+            "sleep_remaining": "Remaining time: {value}",
             "energy_at_end": "Energy at end",
             "fast_sleep": "Fast sleep",
             "fast_sleep_info": {
