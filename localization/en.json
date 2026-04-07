@@ -58,6 +58,41 @@
         },
         "search_placeholder": "Search...",
         "sort": "Sort",
+        "selection": {
+            "action": "Action",
+            "selected_count": "Selected: {count}"
+        },
+        "bulk": {
+            "title": "Bulk action",
+            "choose_action": "Choose action",
+            "selected_items": "Selected items: {count}",
+            "go": "Go",
+            "max": "max: {count}",
+            "remove_from_selection": "Remove",
+            "actions": {
+                "delete": "Delete",
+                "move": "Move",
+                "transfer": "Transfer"
+            },
+            "delete": {
+                "description": "Delete selected items",
+                "confirm_title": "Confirm deletion",
+                "confirm_text": "Do you really want to delete selected items ({count})?",
+                "confirm_button": "Delete"
+            },
+            "move": {
+                "destination_type": "Destination type",
+                "to_dinosaur": "To dinosaur",
+                "dinosaur_id": "Dinosaur ID",
+                "dinosaur_id_placeholder": "Enter dinosaur ID"
+            },
+            "transfer": {
+                "user_id": "Receiver ID",
+                "user_id_placeholder": "Enter receiver ID",
+                "comment": "Comment",
+                "comment_placeholder": "Optional"
+            }
+        },
         "location": "Location",
         "no_items": "No items found",
         "no_actions": "No available actions",

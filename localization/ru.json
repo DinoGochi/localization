@@ -35,7 +35,9 @@
         "dash": "—",
         "no_entities": "Нет сущностей",
         "unit": "{value} ед.",
-        "kilogram": "{value} кг."
+        "kilogram": "{value} кг.",
+        "yes": "Да",
+        "no": "Нет"
     },
     "item_types": {
         "egg": "Яйцо динозавра",
@@ -65,6 +67,41 @@
     "inventory": {
         "search_placeholder": "Поиск...",
         "sort": "Сортировка",
+        "selection": {
+            "action": "Действие",
+            "selected_count": "Выбрано: {count}"
+        },
+        "bulk": {
+            "title": "Массовое действие",
+            "choose_action": "Выбор действия",
+            "selected_items": "Выбрано предметов: {count}",
+            "go": "Перейти",
+            "max": "макс: {count}",
+            "remove_from_selection": "Убрать",
+            "actions": {
+                "delete": "Удалить",
+                "move": "Перенести",
+                "transfer": "Передать"
+            },
+            "delete": {
+                "description": "Удаление выбранных предметов",
+                "confirm_title": "Подтвердите удаление",
+                "confirm_text": "Вы действительно хотите удалить выбранные предметы ({count})?",
+                "confirm_button": "Удалить"
+            },
+            "move": {
+                "destination_type": "Тип назначения",
+                "to_dinosaur": "К динозавру",
+                "dinosaur_id": "ID динозавра",
+                "dinosaur_id_placeholder": "Введите ID динозавра"
+            },
+            "transfer": {
+                "user_id": "ID получателя",
+                "user_id_placeholder": "Введите ID получателя",
+                "comment": "Комментарий",
+                "comment_placeholder": "Опционально"
+            }
+        },
         "location": "Локация",
         "no_items": "Предметы не найдены",
         "no_actions": "Нет доступных действий",
@@ -106,6 +143,10 @@
                 "use": {
                     "button": "Использовать",
                     "title": "Использование предмета"
+                },
+                "trash": {
+                    "button": "Выбросить",
+                    "title": "Выбрасывание предмета"
                 }
             },
             "unavailable": {
@@ -115,6 +156,9 @@
                 "item_empty": "Предмет закончился",
                 "dino_max_limit": "Превышено максимальное количество динозавров",
                 "default": "Действие сейчас недоступно"
+            },
+            "action_toasts": {
+                "success_delete": "Предмет успешно удалён!"
             }
         },
         "errors": {
@@ -225,7 +269,11 @@
         "count": {
             "label": "Количество"
         },
-        "target": "Выберите динозавра"
+        "target": "Выберите динозавра",
+        "confirm": {
+            "label": "Подтвердите действие",
+            "info": "Вы уверены? Это действие нельзя отменить."
+        }
     },
     "home": {
         "title": "Динозавры",
