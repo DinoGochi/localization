@@ -77,6 +77,9 @@
             "rarity": "Редкость",
             "location": "Локация",
             "type": "Тип",
+            "newness": "Новые / Старые",
+            "new": "Новые",
+            "old": "Старые",
             "rank": "Ранг"
         },
         "sort_options": {
@@ -87,6 +90,8 @@
             "rarity_desc": "Редкость ↓",
             "location_asc": "Локация A -> Я",
             "location_desc": "Локация Я -> A",
+            "new_desc": "Сначала новые",
+            "new_asc": "Сначала старые",
             "type_asc": "Тип A -> Я",
             "type_desc": "Тип Я -> A",
             "rank_asc": "Ранг ↑",

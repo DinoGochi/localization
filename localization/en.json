@@ -70,6 +70,9 @@
             "rarity": "Rarity",
             "location": "Location",
             "type": "Type",
+            "newness": "New / Old",
+            "new": "New",
+            "old": "Old",
             "rank": "Rank"
         },
         "sort_options": {
@@ -80,6 +83,8 @@
             "rarity_desc": "Rarity ↓",
             "location_asc": "Location A -> Z",
             "location_desc": "Location Z -> A",
+            "new_desc": "New first",
+            "new_asc": "Old first",
             "type_asc": "Type A -> Z",
             "type_desc": "Type Z -> A",
             "rank_asc": "Rank ↑",
