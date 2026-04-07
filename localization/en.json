@@ -70,15 +70,15 @@
             "max": "max: {count}",
             "remove_from_selection": "Remove",
             "actions": {
-                "delete": "Delete",
+                "trash": "Trash",
                 "move": "Move",
                 "transfer": "Transfer"
             },
-            "delete": {
-                "description": "Delete selected items",
-                "confirm_title": "Confirm deletion",
-                "confirm_text": "Do you really want to delete selected items ({count})?",
-                "confirm_button": "Delete"
+            "trash": {
+                "description": "Move selected items to trash",
+                "confirm_title": "Confirm moving to trash",
+                "confirm_text": "Do you really want to move selected items ({count}) to trash?",
+                "confirm_button": "Move to Trash"
             },
             "move": {
                 "destination_type": "Destination type",
