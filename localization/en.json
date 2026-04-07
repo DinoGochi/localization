@@ -69,6 +69,7 @@
         "filters": {
             "rarity": "Rarity",
             "location": "Location",
+            "type": "Type",
             "rank": "Rank"
         },
         "sort_options": {
@@ -79,8 +80,14 @@
             "rarity_desc": "Rarity ↓",
             "location_asc": "Location A -> Z",
             "location_desc": "Location Z -> A",
+            "type_asc": "Type A -> Z",
+            "type_desc": "Type Z -> A",
             "rank_asc": "Rank ↑",
             "rank_desc": "Rank ↓"
+        },
+        "location_labels": {
+            "homes": "My home",
+            "dinosaur": "Dinosaur #{id}"
         },
         "actions": {
             "actions_names": {
@@ -273,7 +280,12 @@
             "rename_failed": "Failed to change name",
             "allowed_chars_hint": "Allowed characters: a-z, 0-9 and _",
             "language_success": "Language changed",
-            "language_failed": "Failed to change language"
+            "language_failed": "Failed to change language",
+            "inventory_items_per_row_label": "Inventory items per row",
+            "inventory_items_per_row_current": "Now: {count}",
+            "inventory_items_per_row_min": "min: {min}",
+            "inventory_items_per_row_max": "max: {max}",
+            "inventory_items_per_row_saved": "Inventory row size updated"
         }
     },
     "auth": {
