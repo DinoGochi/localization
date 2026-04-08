@@ -32,6 +32,7 @@
         "send": "Отправить",
         "select": "Выбрать",
         "no_data": "Нет данных",
+        "not_available": "Нет данных",
         "dash": "—",
         "no_entities": "Нет сущностей",
         "unit": "{value} ед.",
@@ -357,6 +358,23 @@
             "friend_request_unavailable": "Запросы в друзья пока недоступны",
             "user_not_found": "Пользователь не найден",
             "load_failed": "Не удалось загрузить профиль"
+        },
+        "friends": {
+            "friends_mode": "Друзья",
+            "to_me_mode": "Мне",
+            "from_me_mode": "От меня",
+            "empty_friends": "Список друзей пуст",
+            "empty_to_me": "Входящих запросов пока нет",
+            "empty_from_me": "Исходящих запросов пока нет",
+            "friend_details": "Друг",
+            "friend_since": "Дата начала дружбы",
+            "request_sent_at": "Дата отправки",
+            "open_profile": "Открыть профиль",
+            "delete_friend": "Удалить из друзей",
+            "confirm_delete": "Удалить",
+            "confirm_delete_text": "Вы действительно хотите удалить друга",
+            "cancel_request": "Отменить запрос",
+            "accept_request": "Принять запрос"
         }
     },
     "auth": {

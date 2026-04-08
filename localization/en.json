@@ -31,6 +31,7 @@
         "send": "Send",
         "select": "Select",
         "no_data": "No data",
+        "not_available": "No data",
         "dash": "—",
         "no_entities": "No entities",
         "unit": "{value} units",
@@ -345,6 +346,23 @@
             "friend_request_unavailable": "Friend requests are not available yet",
             "user_not_found": "User not found",
             "load_failed": "Failed to load profile"
+        },
+        "friends": {
+            "friends_mode": "Friends",
+            "to_me_mode": "Incoming",
+            "from_me_mode": "Outgoing",
+            "empty_friends": "Your friends list is empty",
+            "empty_to_me": "No incoming requests yet",
+            "empty_from_me": "No outgoing requests yet",
+            "friend_details": "Friend",
+            "friend_since": "Friend since",
+            "request_sent_at": "Request sent at",
+            "open_profile": "Open profile",
+            "delete_friend": "Remove friend",
+            "confirm_delete": "Delete",
+            "confirm_delete_text": "Do you really want to remove",
+            "cancel_request": "Cancel request",
+            "accept_request": "Accept request"
         }
     },
     "auth": {
