@@ -338,6 +338,26 @@
             "inventory_items_per_row_min": "мин: {min}",
             "inventory_items_per_row_max": "макс: {max}",
             "inventory_items_per_row_saved": "Количество предметов в строке обновлено"
+        },
+        "profile": {
+            "send_friend_request": "Отправить запрос в друзья",
+            "write": "Написать",
+            "level": "Уровень",
+            "wealth": "Богатство",
+            "coins": "Монеты",
+            "dino_coins": "Супер коины",
+            "time_in_game_title": "Время в игре",
+            "time_in_game": "Время в игре",
+            "online_status": "Онлайн статус",
+            "registration_date": "Дата регистрации",
+            "online": "Онлайн",
+            "offline": "Оффлайн",
+            "not_available": "Нет данных",
+            "minutes": "минут",
+            "hours": "часов",
+            "friend_request_unavailable": "Запросы в друзья пока недоступны",
+            "user_not_found": "Пользователь не найден",
+            "load_failed": "Не удалось загрузить профиль"
         }
     },
     "auth": {

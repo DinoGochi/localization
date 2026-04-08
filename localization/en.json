@@ -326,6 +326,26 @@
             "inventory_items_per_row_min": "min: {min}",
             "inventory_items_per_row_max": "max: {max}",
             "inventory_items_per_row_saved": "Inventory row size updated"
+        },
+        "profile": {
+            "send_friend_request": "Send friend request",
+            "write": "Write",
+            "level": "Level",
+            "wealth": "Wealth",
+            "coins": "Coins",
+            "dino_coins": "Super coins",
+            "time_in_game_title": "Time in game",
+            "time_in_game": "Time in game",
+            "online_status": "Online status",
+            "registration_date": "Registration date",
+            "online": "Online",
+            "offline": "Offline",
+            "not_available": "No data",
+            "minutes": "minutes",
+            "hours": "hours",
+            "friend_request_unavailable": "Friend requests are not available yet",
+            "user_not_found": "User not found",
+            "load_failed": "Failed to load profile"
         }
     },
     "auth": {
