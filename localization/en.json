@@ -173,6 +173,10 @@
             "description_with_dino": "Item used. Dinosaur {dino} has been fed.",
             "dino": "Dinosaur",
             "open_dino": "Open dinosaur"
+        },
+        "trash_end": {
+            "text_single": "Item deleted.",
+            "text_many": "Items deleted: {count}"
         }
     },
     "ranks": {
