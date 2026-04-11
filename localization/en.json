@@ -35,7 +35,9 @@
         "dash": "—",
         "no_entities": "No entities",
         "unit": "{value} units",
-        "kilogram": "{value} kg"
+        "kilogram": "{value} kg",
+        "yes": "Yes",
+        "no": "No"
     },
     "down_menu": {
         "aria_label": "Bottom navigation menu",
@@ -67,9 +69,13 @@
             "title": "Bulk action",
             "choose_action": "Choose action",
             "selected_items": "Selected items: {count}",
+            "compatible_items": "Compatible items: {count}",
             "go": "Go",
             "max": "max: {count}",
             "remove_from_selection": "Remove",
+            "incompatible_item": "This item does not match the selected action",
+            "action_not_supported_for_item": "This action is not available for this item",
+            "action_schema_mismatch": "This item requires different action parameters",
             "actions": {
                 "trash": "Trash",
                 "move": "Move",
@@ -135,6 +141,14 @@
                 "use": {
                     "button": "Use",
                     "title": "Item usage"
+                },
+                "trash": {
+                    "button": "Trash",
+                    "title": "Trash item"
+                },
+                "transfer": {
+                    "button": "Transfer",
+                    "title": "Transfer item"
                 }
             },
             "unavailable": {
@@ -262,6 +276,15 @@
         },
         "count": {
             "label": "Count"
+        },
+        "target": "Select a dinosaur",
+        "friend_select": {
+            "label": "Select a friend",
+            "empty": "No friends available"
+        },
+        "confirm": {
+            "label": "Confirm action",
+            "info": "Are you sure? This action cannot be undone."
         }
     },
     "home": {
