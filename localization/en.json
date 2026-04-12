@@ -353,7 +353,10 @@
             "inventory_items_per_row_current": "Now: {count}",
             "inventory_items_per_row_min": "min: {min}",
             "inventory_items_per_row_max": "max: {max}",
-            "inventory_items_per_row_saved": "Inventory row size updated"
+            "inventory_items_per_row_saved": "Inventory row size updated",
+            "reduced_animations_label": "Reduced animations",
+            "reduced_animations_hint": "Reduce transitions and visual motion",
+            "reduced_animations_saved": "Animation setting updated"
         },
         "profile": {
             "send_friend_request": "Send friend request",

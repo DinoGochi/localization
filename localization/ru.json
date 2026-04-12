@@ -350,7 +350,10 @@
             "inventory_items_per_row_current": "Сейчас: {count}",
             "inventory_items_per_row_min": "мин: {min}",
             "inventory_items_per_row_max": "макс: {max}",
-            "inventory_items_per_row_saved": "Количество предметов в строке обновлено"
+            "inventory_items_per_row_saved": "Количество предметов в строке обновлено",
+            "reduced_animations_label": "Уменьшение анимаций",
+            "reduced_animations_hint": "Уменьшить переходы и визуальное движение",
+            "reduced_animations_saved": "Настройка анимаций обновлена"
         },
         "profile": {
             "send_friend_request": "Отправить запрос в друзья",
