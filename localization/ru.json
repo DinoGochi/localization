@@ -62,6 +62,10 @@
             "account": "Аккаунт"
         }
     },
+    "activities": {
+        "sleep": "Сон",
+        "moving": "Движение"
+    },
     "errors": {
         "user_load": "Ошибка загрузки пользователя"
     },
@@ -136,11 +140,18 @@
             "type_asc": "Тип A -> Я",
             "type_desc": "Тип Я -> A",
             "rank_asc": "Ранг ↑",
-            "rank_desc": "Ранг ↓"
+            "rank_desc": "Ранг ↓",
+            "weight_asc": "Вес ↑",
+            "weight_desc": "Вес ↓"
         },
         "location_labels": {
             "homes": "Мой дом",
             "dinosaur": "Динозавр #{id}"
+        },
+        "weight_categories": {
+            "light": "Легко",
+            "heavy": "Тяжело",
+            "very_heavy": "Очень тяжело"
         },
         "actions": {
             "actions_names":{
@@ -155,6 +166,15 @@
                 "transfer": {
                     "button": "Передать",
                     "title": "Передать предмет"
+                }
+            },
+            "transfer": {
+                "transfer_type": {
+                    "title": "Куда передать",
+                    "options": {
+                    "home": "Домой",
+                    "dinosaur": "Динозавру"
+                    }
                 }
             },
             "unavailable": {
@@ -217,14 +237,24 @@
         "name": "название",
         "description": "описание",
         "count": "количество",
+        "weight_per_unit": "Вес за шт.",
+        "total_weight": "Общий вес",
         "egg": {
             "incubation_time": "время инкубации",
             "egg_rarity": "редкость динозавра внутри"
         },
         "eat": {
-            "effect": "эффект",
-            "target": "цель"
-        }
+            "effect": "питательность",
+            "target": "для кого",
+            "whom": {
+                "carnivore": "Плотоядный",
+                "herbivore": "Травоядный",
+                "flying": "Летающий",
+                "all": "Для всех"
+            }
+        },
+        "location": "Локация",
+        "location_cell": "Клетка"
     },
     "onboarding": {
         "buttons": {
@@ -286,7 +316,13 @@
         "confirm": {
             "label": "Подтвердите действие",
             "info": "Вы уверены? Это действие нельзя отменить."
-        }
+        },
+        "applied_filters": "Применённые фильтры",
+        "no_entities_due_to_filters": "Нет динозавров из-за активных фильтров.",
+        "filter_only_owner": "Только ваши динозавры",
+        "filter_only_for_not_busy": "Только свободные динозавры",
+        "filter_on_one_location": "Только в одной локации с предметом",
+        "filter_exclude_activities": "Исключить активности: {value}"
     },
     "home": {
         "title": "Динозавры",

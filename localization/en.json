@@ -48,6 +48,10 @@
             "account": "Account"
         }
     },
+    "activities": {
+        "sleep": "Sleep",
+        "moving": "Moving"
+    },
     "errors": {
         "user_load": "Failed to load user"
     },
@@ -130,11 +134,18 @@
             "type_asc": "Type A -> Z",
             "type_desc": "Type Z -> A",
             "rank_asc": "Rank ↑",
-            "rank_desc": "Rank ↓"
+            "rank_desc": "Rank ↓",
+            "weight_asc": "Weight ↑",
+            "weight_desc": "Weight ↓"
         },
         "location_labels": {
             "homes": "My home",
             "dinosaur": "Dinosaur #{id}"
+        },
+        "weight_categories": {
+            "light": "Light",
+            "heavy": "Heavy",
+            "very_heavy": "Very heavy"
         },
         "actions": {
             "actions_names": {
@@ -149,6 +160,15 @@
                 "transfer": {
                     "button": "Transfer",
                     "title": "Transfer item"
+                }
+            },
+            "transfer": {
+                "transfer_type": {
+                    "title": "Transfer target",
+                    "options": {
+                    "home": "Home",
+                    "dinosaur": "Dinosaur"
+                    }
                 }
             },
             "unavailable": {
@@ -219,14 +239,24 @@
         "name": "name",
         "description": "description",
         "count": "count",
+        "weight_per_unit": "Weight per unit",
+        "total_weight": "Total weight",
         "egg": {
             "incubation_time": "incubation time",
             "egg_rarity": "egg rarity"
         },
         "eat": {
-            "effect": "effect",
-            "target": "target"
+            "effect": "nutritional",
+            "target": "for whom",
+            "whom": {
+                "carnivore": "Carnivore",
+                "herbivore": "Herbivore",
+                "flying": "Flying",
+                "all": "All"
+            }
         },
+        "location": "Location",
+        "location_cell": "Cell",
         "target": "Select a dinosaur"
     },
     "onboarding": {
@@ -289,7 +319,13 @@
         "confirm": {
             "label": "Confirm action",
             "info": "Are you sure? This action cannot be undone."
-        }
+        },
+        "applied_filters": "Applied filters",
+        "no_entities_due_to_filters": "No dinosaurs available due to active filters.",
+        "filter_only_owner": "Only your dinosaurs",
+        "filter_only_for_not_busy": "Only not busy dinosaurs",
+        "filter_on_one_location": "Same location only with item",
+        "filter_exclude_activities": "Exclude activities: {value}"
     },
     "home": {
         "title": "Dinosaurs",
