@@ -67,7 +67,10 @@
         "moving": "Движение"
     },
     "errors": {
-        "user_load": "Ошибка загрузки пользователя"
+        "user_load": "Ошибка загрузки пользователя",
+        "codes": {
+            "transfer_target_capacity_full": "Недостаточно места в целевом хранилище"
+        }
     },
     "inventory": {
         "search_placeholder": "Поиск...",
@@ -175,7 +178,8 @@
                     "home": "Домой",
                     "dinosaur": "Динозавру"
                     }
-                }
+                },
+                "title": "Передача предмета"
             },
             "unavailable": {
                 "no_target": "Не выбран динозавр",
@@ -187,7 +191,26 @@
             }
         },
         "errors": {
-            "action_failed": "Ошибка выполнения действия"
+            "action_failed": "Ошибка выполнения действия",
+            "codes": {
+                "transfer_target_capacity_full": "Недостаточно места в целевом хранилище"
+            }
+        },
+        "transfer_end": {
+            "success_text": "Передача выполнена успешно.",
+            "source_title": "Откуда передано",
+            "target_title": "Куда передано",
+            "target_full_title": "Заполненность цели",
+            "target_full_message": "Недостаточно места в целевом хранилище.",
+            "storage_full_static": "Хранилище цели заполнено. Освободите место и попробуйте снова.",
+            "dinosaur_unknown_name": "Динозавр",
+            "back_to_form": "Вернуться к форме",
+            "required_hint": "Нужно: {req_slots} слотов / {req_weight} кг. Свободно: {free_slots} слотов / {free_weight} кг.",
+            "waiting_data": "Ожидаем обновление данных...",
+            "labels": {
+                "slots": "Свободные слоты",
+                "weight": "Свободный вес"
+            }
         },
         "egg_end": {
             "title": "Яйцо выбрано!",

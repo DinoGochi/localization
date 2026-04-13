@@ -53,7 +53,10 @@
         "moving": "Moving"
     },
     "errors": {
-        "user_load": "Failed to load user"
+        "user_load": "Failed to load user",
+        "codes": {
+            "transfer_target_capacity_full": "Not enough space in the target storage"
+        }
     },
     "item_types": {
         "egg": "dinosaur egg"
@@ -181,7 +184,26 @@
             }
         },
         "errors": {
-            "action_failed": "Action execution failed"
+            "action_failed": "Action execution failed",
+            "codes": {
+                "transfer_target_capacity_full": "Not enough space in the target storage"
+            }
+        },
+        "transfer_end": {
+            "success_text": "Transfer completed successfully.",
+            "source_title": "Transferred from",
+            "target_title": "Transferred to",
+            "target_full_title": "Target capacity",
+            "target_full_message": "Not enough space in the target storage.",
+            "storage_full_static": "Target storage is full. Free up some space and try again.",
+            "dinosaur_unknown_name": "Dinosaur",
+            "back_to_form": "Back to form",
+            "required_hint": "Required: {req_slots} slots / {req_weight} weight. Free: {free_slots} slots / {free_weight} weight.",
+            "waiting_data": "Waiting for data update...",
+            "labels": {
+                "slots": "Slots",
+                "weight": "Weight"
+            }
         },
         "egg_end": {
             "title": "Egg selected!",
