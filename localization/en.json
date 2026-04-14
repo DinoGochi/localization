@@ -110,6 +110,9 @@
         "location": "Location",
         "no_items": "No items found",
         "no_actions": "No available actions",
+        "bag": {
+            "title": "Bag"
+        },
         "item_details": "Item details",
         "action": "Action",
         "action_titles": {
@@ -627,7 +630,8 @@
             "energy": "Energy"
         },
         "need_modal": {
-            "title": "Need information"
+            "title": "Need information",
+            "feed": "Feed"
         },
         "settings": {
             "title": "Dinosaur settings",
