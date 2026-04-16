@@ -390,9 +390,26 @@
             "collections": "Collections",
             "rating": "Rating",
             "friends": "Friends",
+            "notifications": "Notifications",
             "global_search": "Global search",
             "admin_panel": "Admin panel",
             "map_generator": "Map generator"
+        },
+        "notifications": {
+            "title": "Notifications",
+            "empty": "No notifications yet",
+            "open_action": "Open",
+            "open_dino": "Open dinosaur",
+            "delete_action": "Delete",
+            "default_type_label": "Notification",
+            "empty_text_fallback": "New notification",
+            "types": {
+                "friend_request": "Friend request",
+                "dinosaur_event": "Dinosaur event",
+                "system_alert": "System alert",
+                "new_level": "New level",
+                "achievement_unlocked": "Achievement unlocked"
+            }
         },
         "settings": {
             "title": "Settings",
@@ -417,7 +434,21 @@
             "inventory_items_per_row_saved": "Inventory row size updated",
             "reduced_animations_label": "Reduced animations",
             "reduced_animations_hint": "Reduce transitions and visual motion",
-            "reduced_animations_saved": "Animation setting updated"
+            "reduced_animations_saved": "Animation setting updated",
+            "notification_toast_duration_label": "Notification display time",
+            "notification_toast_duration_current": "Now: {seconds} sec",
+            "notification_toast_duration_min": "min: {min} sec",
+            "notification_toast_duration_max": "max: {max} sec",
+            "notification_toast_duration_saved": "Notification display time updated",
+            "sound_settings_label": "Sound settings",
+            "sound_notification_volume_label": "Notification volume",
+            "sound_music_volume_label": "Music volume",
+            "sound_game_volume_label": "Game volume",
+            "sound_volume_current": "Now: {percent}%",
+            "sound_volume_min": "min: {min}%",
+            "sound_volume_max": "max: {max}%",
+            "sound_notification_test": "Test notification sound",
+            "sound_settings_saved": "Sound settings updated"
         },
         "profile": {
             "send_friend_request": "Send friend request",

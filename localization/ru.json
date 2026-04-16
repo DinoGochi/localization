@@ -388,9 +388,26 @@
             "collections": "Коллекции",
             "rating": "Рейтинг",
             "friends": "Друзья",
+            "notifications": "Уведомления",
             "global_search": "Глобальный поиск",
             "admin_panel": "Админ панель",
             "map_generator": "Генератор карт"
+        },
+        "notifications": {
+            "title": "Уведомления",
+            "empty": "Пока нет уведомлений",
+            "open_action": "Открыть",
+            "open_dino": "Открыть динозавра",
+            "delete_action": "Удалить",
+            "default_type_label": "Уведомление",
+            "empty_text_fallback": "Новое уведомление",
+            "types": {
+                "friend_request": "Запрос в друзья",
+                "dinosaur_event": "Событие динозавра",
+                "system_alert": "Системное уведомление",
+                "new_level": "Новый уровень",
+                "achievement_unlocked": "Достижение"
+            }
         },
         "settings": {
             "title": "Настройки",
@@ -415,7 +432,21 @@
             "inventory_items_per_row_saved": "Количество предметов в строке обновлено",
             "reduced_animations_label": "Уменьшение анимаций",
             "reduced_animations_hint": "Уменьшить переходы и визуальное движение",
-            "reduced_animations_saved": "Настройка анимаций обновлена"
+            "reduced_animations_saved": "Настройка анимаций обновлена",
+            "notification_toast_duration_label": "Время показа уведомления",
+            "notification_toast_duration_current": "Сейчас: {seconds} сек",
+            "notification_toast_duration_min": "мин: {min} сек",
+            "notification_toast_duration_max": "макс: {max} сек",
+            "notification_toast_duration_saved": "Время показа уведомления обновлено",
+            "sound_settings_label": "Звуковые настройки",
+            "sound_notification_volume_label": "Громкость уведомлений",
+            "sound_music_volume_label": "Громкость музыки",
+            "sound_game_volume_label": "Громкость игры",
+            "sound_volume_current": "Сейчас: {percent}%",
+            "sound_volume_min": "мин: {min}%",
+            "sound_volume_max": "макс: {max}%",
+            "sound_notification_test": "Проверить звук уведомления",
+            "sound_settings_saved": "Настройки звука обновлены"
         },
         "profile": {
             "send_friend_request": "Отправить запрос в друзья",
