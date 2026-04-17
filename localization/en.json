@@ -401,6 +401,7 @@
             "open_action": "Open",
             "open_dino": "Open dinosaur",
             "delete_action": "Delete",
+            "clear_all": "Clear all",
             "default_type_label": "Notification",
             "empty_text_fallback": "New notification",
             "types": {
@@ -408,7 +409,8 @@
                 "dinosaur_event": "Dinosaur event",
                 "system_alert": "System alert",
                 "new_level": "New level",
-                "achievement_unlocked": "Achievement unlocked"
+                "achievement_unlocked": "Achievement unlocked",
+                "egg_ready": "Egg ready"
             }
         },
         "settings": {
@@ -485,6 +487,78 @@
             "confirm_delete_text": "Do you really want to remove",
             "cancel_request": "Cancel request",
             "accept_request": "Accept request"
+        }
+    },
+    "notifications_data": {
+        "friend_request": {
+            "title": "Friend request",
+            "text": "{from_user_name} sent you a friend request.",
+            "button": "Open profile"
+        },
+        "new_level": {
+            "title": "New level",
+            "text": "Congratulations! You reached level {level}.",
+            "button": "Open account"
+        },
+        "egg_ready": {
+            "title": "Incubation finished",
+            "text": "Egg finished incubation. You can hatch it now.",
+            "button": "Egg"
+        },
+        "dinosaur_event": {
+            "title": "Dinosaur event",
+            "text": "An event happened with dinosaur {dino_name}.",
+            "button": "Open dinosaur",
+            "need_heal": {
+                "title": "Critical health",
+                "text": "💔 <b>{dino_name}</b>: <b>{owner_name}</b>, I feel really bad... ({unit}%)",
+                "replics": [
+                    "💔 <b>{dino_name}</b>: <b>{owner_name}</b>, I feel really bad... ({unit}%)",
+                    "💔 <b>{dino_name}</b>: <b>{owner_name}</b>, please help me, I feel terrible... ({unit}%)",
+                    "💔 <b>{dino_name}</b>: <b>{owner_name}</b>, I think I need help right now... ({unit}%)"
+                ],
+                "button": "Help dinosaur"
+            },
+            "need_eat": {
+                "title": "Critical satiety",
+                "text": "🥕 <b>{dino_name}</b>: <b>{owner_name}</b>, I'm hungry, what will I eat today? ({unit}%)",
+                "replics": [
+                    "🥕 <b>{dino_name}</b>: <b>{owner_name}</b>, I'm hungry, what will I eat today? ({unit}%)",
+                    "🥕 <b>{dino_name}</b>: <b>{owner_name}</b>, I'm hungry! ({unit}%)",
+                    "🥕 <b>{dino_name}</b>: Feed me, <b>{owner_name}</b>. ({unit}%)"
+                ],
+                "button": "Feed"
+            },
+            "need_mood": {
+                "title": "Critical mood",
+                "text": "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, I'm feeling sad... ({unit}%)",
+                "replics": [
+                    "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, I'm feeling sad... ({unit}%)",
+                    "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, why is this day so boring? ({unit}%)",
+                    "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, I'm so bored... ({unit}%)"
+                ],
+                "button": "Cheer up"
+            },
+            "need_game": {
+                "title": "Critical play",
+                "text": "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, I haven't played for so long... ({unit}%)",
+                "replics": [
+                    "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, I haven't played for so long... ({unit}%)",
+                    "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, play with me! ({unit}%)",
+                    "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, I really want to play now... ({unit}%)"
+                ],
+                "button": "Play"
+            },
+            "need_energy": {
+                "title": "Critical energy",
+                "text": "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, I want to sleep... ({unit}%)",
+                "replics": [
+                    "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, I want to sleep... ({unit}%)",
+                    "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, I'm very tired, can we go to sleep? ({unit}%)",
+                    "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, I'm really exhausted... ({unit}%)"
+                ],
+                "button": "Put to sleep"
+            }
         }
     },
     "auth": {

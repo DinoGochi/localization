@@ -399,6 +399,7 @@
             "open_action": "Открыть",
             "open_dino": "Открыть динозавра",
             "delete_action": "Удалить",
+            "clear_all": "Очистить все",
             "default_type_label": "Уведомление",
             "empty_text_fallback": "Новое уведомление",
             "types": {
@@ -406,7 +407,8 @@
                 "dinosaur_event": "Событие динозавра",
                 "system_alert": "Системное уведомление",
                 "new_level": "Новый уровень",
-                "achievement_unlocked": "Достижение"
+                "achievement_unlocked": "Достижение",
+                "egg_ready": "Яйцо готово"
             }
         },
         "settings": {
@@ -483,6 +485,78 @@
             "confirm_delete_text": "Вы действительно хотите удалить друга",
             "cancel_request": "Отменить запрос",
             "accept_request": "Принять запрос"
+        }
+    },
+    "notifications_data": {
+        "friend_request": {
+            "title": "Запрос в друзья",
+            "text": "Игрок {from_user_name} отправил вам запрос в друзья.",
+            "button": "Открыть профиль"
+        },
+        "new_level": {
+            "title": "Новый уровень",
+            "text": "Поздравляем! Вы достигли {level} уровня.",
+            "button": "Открыть аккаунт"
+        },
+        "egg_ready": {
+            "title": "Инкубация завершена",
+            "text": "Яйцо завершило инкубацию. Можно вылуплять.",
+            "button": "Яйцо"
+        },
+        "dinosaur_event": {
+            "title": "Событие динозавра",
+            "text": "Произошло событие с динозавром {dino_name}.",
+            "button": "Открыть динозавра",
+            "need_heal": {
+                "title": "Критическое здоровье",
+                "text": "💔 <b>{dino_name}</b>: Кхе, кхе, <b>{owner_name}</b>, я очень плохо себя чувствую... ({unit}%)",
+                "replics": [
+                    "💔 <b>{dino_name}</b>: Кхе, кхе, <b>{owner_name}</b>, я очень плохо себя чувствую... ({unit}%)",
+                    "💔 <b>{dino_name}</b>: <b>{owner_name}</b>, мне очень плохо, помоги мне... ({unit}%)",
+                    "💔 <b>{dino_name}</b>: <b>{owner_name}</b>, по моему мне нужна помощь, я очень плохо себя чувствую... ({unit}%)"
+                ],
+                "button": "Помочь динозавру"
+            },
+            "need_eat": {
+                "title": "Критическая сытость",
+                "text": "🥕 <b>{dino_name}</b>: <b>{owner_name}</b>, я хочу кушать, что я попробую сегодня? ({unit}%)",
+                "replics": [
+                    "🥕 <b>{dino_name}</b>: <b>{owner_name}</b>, я хочу кушать, что я попробую сегодня? ({unit}%)",
+                    "🥕 <b>{dino_name}</b>: <b>{owner_name}</b>, хочу кушать! ({unit}%)",
+                    "🥕 <b>{dino_name}</b>: Покорми меня, <b>{owner_name}</b>. ({unit}%)"
+                ],
+                "button": "Покормить"
+            },
+            "need_mood": {
+                "title": "Критическое настроение",
+                "text": "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, как то грустно мне... ({unit}%)",
+                "replics": [
+                    "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, как то грустно мне... ({unit}%)",
+                    "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, почему этот день такой скучный? ({unit}%)",
+                    "😥 <b>{dino_name}</b>: <b>{owner_name}</b>, так скучно... ({unit}%)"
+                ],
+                "button": "Поднять настроение"
+            },
+            "need_game": {
+                "title": "Критическая наигранность",
+                "text": "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, я так давно не играл... ({unit}%)",
+                "replics": [
+                    "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, я так давно не играл... ({unit}%)",
+                    "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, поиграй со мной! ({unit}%)",
+                    "🎮 <b>{dino_name}</b>: <b>{owner_name}</b>, вот бы сейчас поиграть... ({unit}%)"
+                ],
+                "button": "Поиграть"
+            },
+            "need_energy": {
+                "title": "Критическая энергия",
+                "text": "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, я хочу спать... ({unit}%)",
+                "replics": [
+                    "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, я хочу спать... ({unit}%)",
+                    "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, я очень устал, давай пойдём спать? ({unit}%)",
+                    "✨ <b>{dino_name}</b>: <b>{owner_name}</b>, что-то я устал... ({unit}%)"
+                ],
+                "button": "Уложить спать"
+            }
         }
     },
     "auth": {
