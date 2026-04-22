@@ -736,7 +736,8 @@
         },
         "need_modal": {
             "title": "Need information",
-            "feed": "Feed"
+            "feed": "Feed",
+            "collecting": "About collecting"
         },
         "settings": {
             "title": "Dinosaur settings",
@@ -803,6 +804,45 @@
             "stop_sleep": "Stop sleep",
             "stop_sleep_hint": "This may harm the dinosaur",
             "to_sleep_page": "About sleep"
+        },
+        "collecting_page": {
+            "title": "Resource collecting",
+            "setup_title": "Prepare collecting",
+            "collecting_type": "Collecting type",
+            "progress_title": "Collecting in progress",
+            "ended_title": "Collecting finished",
+            "ended_description": "Choose what to transfer to inventory. You can claim only part of the loot.",
+            "types": {
+                "all": "All",
+                "gathering": "Gathering",
+                "hunting": "Hunting",
+                "fishing": "Fishing"
+            },
+            "rate_label": "Efficiency",
+            "end_time_label": "Ends at",
+            "expected_items_label": "Expected items",
+            "found_items_label": "Found items",
+            "duration_label": "Duration",
+            "duration_value": "Duration: {value}",
+            "min_duration": "min: {value}",
+            "max_duration": "max: {value}",
+            "start_collecting": "Start collecting",
+            "starting_collecting": "Starting collecting...",
+            "force_end_collecting": "Force end",
+            "force_end_collecting_pending": "Ending...",
+            "claim_collecting": "Claim selected",
+            "claim_collecting_pending": "Claiming...",
+            "progress_card_title": "Collecting progress",
+            "remaining_label": "Remaining: {value}",
+            "no_items": "Nothing found yet",
+            "confirm_force_end_title": "Force end collecting?",
+            "confirm_force_end_text": "The dinosaur will stop collecting and return with already found items.",
+            "confirm_force_end_confirm": "Yes, end now",
+            "confirm_force_end_cancel": "Cancel",
+            "preload_failed": "Failed to load collecting parameters",
+            "start_failed": "Failed to start collecting",
+            "force_end_failed": "Failed to force end collecting",
+            "claim_failed": "Failed to claim items"
         }
     },
     "egg": {

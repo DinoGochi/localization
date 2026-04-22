@@ -734,7 +734,8 @@
         },
         "need_modal": {
             "title": "Информация о потребности",
-            "feed": "Покормить"
+            "feed": "Покормить",
+            "collecting": "О сборе"
         },
         "settings": {
             "title": "Настройки динозавра",
@@ -801,6 +802,45 @@
             "stop_sleep": "Прервать сон",
             "stop_sleep_hint": "Это может навредить динозавру",
             "to_sleep_page": "О сне"
+        },
+        "collecting_page": {
+            "title": "Сбор ресурсов",
+            "setup_title": "Подготовка к сбору",
+            "collecting_type": "Тип сбора",
+            "progress_title": "Сбор в процессе",
+            "ended_title": "Сбор завершен",
+            "ended_description": "Выберите, что перенести в инвентарь. Можно забрать не все.",
+            "types": {
+                "all": "Все",
+                "gathering": "Собирательство",
+                "hunting": "Охота",
+                "fishing": "Рыбалка"
+            },
+            "rate_label": "Эффективность",
+            "end_time_label": "Окончание",
+            "expected_items_label": "Ожидаемые предметы",
+            "found_items_label": "Найдено предметов",
+            "duration_label": "Время",
+            "duration_value": "Длительность: {value}",
+            "min_duration": "мин: {value}",
+            "max_duration": "макс: {value}",
+            "start_collecting": "Начать сбор",
+            "starting_collecting": "Запускаем сбор...",
+            "force_end_collecting": "Завершить досрочно",
+            "force_end_collecting_pending": "Завершаем...",
+            "claim_collecting": "Забрать выбранное",
+            "claim_collecting_pending": "Переносим...",
+            "progress_card_title": "Прогресс сбора",
+            "remaining_label": "Осталось: {value}",
+            "no_items": "Пока ничего не найдено",
+            "confirm_force_end_title": "Завершить сбор?",
+            "confirm_force_end_text": "Динозавр прервет сбор и вернется с тем, что уже нашел.",
+            "confirm_force_end_confirm": "Да, завершить",
+            "confirm_force_end_cancel": "Отмена",
+            "preload_failed": "Не удалось получить параметры сбора",
+            "start_failed": "Не удалось начать сбор",
+            "force_end_failed": "Не удалось завершить сбор",
+            "claim_failed": "Не удалось забрать предметы"
         }
     },
     "egg": {
