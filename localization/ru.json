@@ -735,7 +735,8 @@
         "need_modal": {
             "title": "Информация о потребности",
             "feed": "Покормить",
-            "collecting": "О сборе"
+            "collecting": "О сборе",
+            "game": "Об игре"
         },
         "settings": {
             "title": "Настройки динозавра",
@@ -802,6 +803,33 @@
             "stop_sleep": "Прервать сон",
             "stop_sleep_hint": "Это может навредить динозавру",
             "to_sleep_page": "О сне"
+        },
+        "game_page": {
+            "title": "Игровая активность",
+            "setup_title": "Выбор игры",
+            "progress_title": "Игра в процессе",
+            "game_type_label": "Тип игры",
+            "end_time_label": "Окончание",
+            "duration_value": "Время: {value}",
+            "min_duration": "мин: {value}",
+            "max_duration": "макс: {value}",
+            "start_game": "Начать игру",
+            "starting_game": "Запускаем игру...",
+            "force_end_game": "Завершить досрочно",
+            "force_end_game_pending": "Завершаем...",
+            "progress_card_title": "Прогресс игры",
+            "remaining_label": "Осталось: {value}",
+            "preload_failed": "Не удалось получить параметры игры",
+            "start_failed": "Не удалось начать игру",
+            "force_end_failed": "Не удалось завершить игру",
+            "playing_badge": "Игра",
+            "types": {
+                "rock_paper_scissors": "Камень ножницы бумага",
+                "tic_tac_toe": "Крестики нолики",
+                "connect_four": "Четыре в ряд",
+                "dino_run": "Дино ран",
+                "snake": "Змейка"
+            }
         },
         "collecting_page": {
             "title": "Сбор ресурсов",

@@ -737,7 +737,8 @@
         "need_modal": {
             "title": "Need information",
             "feed": "Feed",
-            "collecting": "About collecting"
+            "collecting": "About collecting",
+            "game": "About games"
         },
         "settings": {
             "title": "Dinosaur settings",
@@ -804,6 +805,33 @@
             "stop_sleep": "Stop sleep",
             "stop_sleep_hint": "This may harm the dinosaur",
             "to_sleep_page": "About sleep"
+        },
+        "game_page": {
+            "title": "Game activity",
+            "setup_title": "Pick a game",
+            "progress_title": "Game in progress",
+            "game_type_label": "Game type",
+            "end_time_label": "Ends at",
+            "duration_value": "Duration: {value}",
+            "min_duration": "min: {value}",
+            "max_duration": "max: {value}",
+            "start_game": "Start game",
+            "starting_game": "Starting game...",
+            "force_end_game": "Force end",
+            "force_end_game_pending": "Ending...",
+            "progress_card_title": "Game progress",
+            "remaining_label": "Remaining: {value}",
+            "preload_failed": "Failed to load game parameters",
+            "start_failed": "Failed to start game",
+            "force_end_failed": "Failed to end game",
+            "playing_badge": "Playing",
+            "types": {
+                "rock_paper_scissors": "Rock-paper-scissors",
+                "tic_tac_toe": "Tic-tac-toe",
+                "connect_four": "Connect four",
+                "dino_run": "Dino run",
+                "snake": "Snake"
+            }
         },
         "collecting_page": {
             "title": "Resource collecting",
